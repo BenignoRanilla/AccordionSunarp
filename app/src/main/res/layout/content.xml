@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rowContainer"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:background="@color/md_red_300"
+    tools:layout_height="100dp">
+
+    <TextView
+        android:id="@+id/contentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Hello World!"
+        android:textColor="@color/md_black_1000"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <FrameLayout
+    android:id="@+id/contentFragment"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"></FrameLayout>
+    <!--<fragment-->
+        <!--android:id="@+id/myCuteFragment"-->
+        <!--android:name="beepbeep.myapplication.SmallContentFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+</FrameLayout>
